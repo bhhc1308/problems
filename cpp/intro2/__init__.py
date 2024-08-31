@@ -22,7 +22,7 @@ def exists():
 @check50.check(exists)
 def compiles():
     """intro2.cpp compiles"""
-    check50.run("check50.run("g++ -std=c++11 demo.cpp -o demo").exit(0)").exit(0)
+    check50.run("g++ -std=c++11 intro2.cpp -o demo").exit(0)
 
 @check50.check(compiles)
 def demo_1():

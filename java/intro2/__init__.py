@@ -22,7 +22,7 @@ def exists():
 @check50.check(exists)
 def compiles():
     """intro2.java compiles"""
-    check50.run("javac Demo.java").exit(0)
+    check50.run("javac intro2.java").exit(0)
 
 @check50.check(compiles)
 def demo_1():
@@ -97,5 +97,5 @@ def demo_14():
 # Helpers
 def test_input_output(input_file, output_file):
     """A function to test a single input/output pair"""
-    executable = "java Demo"
+    executable = "java {folder_name}"
     check50.run(executable).stdin(open(input_file).read(), prompt=False).stdout(open(output_file).read(), regex=False).exit()
