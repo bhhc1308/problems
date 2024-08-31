@@ -1,7 +1,7 @@
 import check50
 
 @check50.check()
-def compiles():
+def exists():
     """Intro1.java exists"""
     check50.exists("Intro1.java")
     check50.include("../../intro1/1.in", "../../intro1/1.out")
