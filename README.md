@@ -2,7 +2,8 @@
 
 Select your programming language
 
-- C
+<details>
+    <summary> C</summary>
     
     File Name: `{test_name}.c`
     
@@ -24,8 +25,10 @@ Select your programming language
     ```bash
     submit50 exam24/problems/gvpce/c/{test_name}
     ```
+</details>
     
-- C++
+<details>
+    <summary>C++</summary>
     
     File Name: `{test_name}.cpp`
     
@@ -47,8 +50,10 @@ Select your programming language
     ```bash
     submit50 exam24/problems/gvpce/cpp/{test_name}
     ```
+</details>
     
-- Python
+<details>
+    <summary>Python</summary>
     
     File Name: `{test_name}.py`
     
@@ -69,8 +74,10 @@ Select your programming language
     ```bash
     submit50 exam24/problems/gvpce/py/{test_name}
     ```
+</details>
     
-- Java
+<details> 
+    <summary>Java</summary>
     
     File Name: `{test_name}.java`
     
@@ -92,3 +99,4 @@ Select your programming language
     ```bash
     submit50 exam24/problems/gvpce/java/{test_name}
     ```
+</details>
