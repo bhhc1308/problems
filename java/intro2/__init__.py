@@ -97,5 +97,5 @@ def demo_14():
 # Helpers
 def test_input_output(input_file, output_file):
     """A function to test a single input/output pair"""
-    executable = "java {folder_name}"
+    executable = "java Intro2"
     check50.run(executable).stdin(open(input_file).read(), prompt=False).stdout(open(output_file).read(), regex=False).exit()
