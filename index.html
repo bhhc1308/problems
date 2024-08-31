@@ -1,50 +1,106 @@
-<h1>Welcome to Raising Bharat</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raising Bharat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
 
-<p>Select your programming language</p>
+        h1 {
+            color: #333;
+        }
 
-<details>
-    <summary>C</summary>
-    <p>File Name: <code>{test_name}.c</code></p>
-    <p>To Compile and run:</p>
-    <pre><code>make {test_name}
+        details {
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+
+        summary {
+            font-weight: bold;
+            cursor: pointer;
+            margin: -10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        summary:hover {
+            background-color: #e0e0e0;
+        }
+
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        code {
+            font-family: Consolas, "Courier New", monospace;
+            color: #d63384;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to Raising Bharat</h1>
+    <p>Select your programming language:</p>
+
+    <details>
+        <summary>C</summary>
+        <p><strong>File Name</strong>: <code>{test_name}.c</code></p>
+        <p><strong>To Compile and run:</strong></p>
+        <pre><code>make {test_name}
 ./{test_name}</code></pre>
-    <p>To check correctness:</p>
-    <pre><code>check50 exam24/problems/gvpce/c/{test_name}</code></pre>
-    <p>To submit:</p>
-    <pre><code>submit50 exam24/problems/gvpce/c/{test_name}</code></pre>
-</details>
+        <p><strong>To check correctness:</strong></p>
+        <pre><code>check50 exam24/problems/gvpce/c/{test_name}</code></pre>
+        <p><strong>To submit:</strong></p>
+        <pre><code>submit50 exam24/problems/gvpce/c/{test_name}</code></pre>
+    </details>
 
-<details>
-    <summary>C++</summary>
-    <p>File Name: <code>{test_name}.cpp</code></p>
-    <p>To Compile and run:</p>
-    <pre><code>make {test_name}
+    <details>
+        <summary>C++</summary>
+        <p><strong>File Name</strong>: <code>{test_name}.cpp</code></p>
+        <p><strong>To Compile and run:</strong></p>
+        <pre><code>make {test_name}
 ./{test_name}</code></pre>
-    <p>To check correctness:</p>
-    <pre><code>check50 exam24/problems/gvpce/cpp/{test_name}</code></pre>
-    <p>To submit:</p>
-    <pre><code>submit50 exam24/problems/gvpce/cpp/{test_name}</code></pre>
-</details>
+        <p><strong>To check correctness:</strong></p>
+        <pre><code>check50 exam24/problems/gvpce/cpp/{test_name}</code></pre>
+        <p><strong>To submit:</strong></p>
+        <pre><code>submit50 exam24/problems/gvpce/cpp/{test_name}</code></pre>
+    </details>
 
-<details>
-    <summary>Python</summary>
-    <p>File Name: <code>{test_name}.py</code></p>
-    <p>To run:</p>
-    <pre><code>python3 {test_name}.py</code></pre>
-    <p>To check correctness:</p>
-    <pre><code>check50 exam24/problems/gvpce/py/{test_name}</code></pre>
-    <p>To submit:</p>
-    <pre><code>submit50 exam24/problems/gvpce/py/{test_name}</code></pre>
-</details>
+    <details>
+        <summary>Python</summary>
+        <p><strong>File Name</strong>: <code>{test_name}.py</code></p>
+        <p><strong>To run:</strong></p>
+        <pre><code>python3 {test_name}.py</code></pre>
+        <p><strong>To check correctness:</strong></p>
+        <pre><code>check50 exam24/problems/gvpce/py/{test_name}</code></pre>
+        <p><strong>To submit:</strong></p>
+        <pre><code>submit50 exam24/problems/gvpce/py/{test_name}</code></pre>
+    </details>
 
-<details>
-    <summary>Java</summary>
-    <p>File Name: <code>{test_name}.java</code></p>
-    <p>To Compile and run:</p>
-    <pre><code>javac {test_name}.java
+    <details>
+        <summary>Java</summary>
+        <p><strong>File Name</strong>: <code>{test_name}.java</code></p>
+        <p><strong>To Compile and run:</strong></p>
+        <pre><code>javac {test_name}.java
 java {test_name}</code></pre>
-    <p>To check correctness:</p>
-    <pre><code>check50 exam24/problems/gvpce/java/{test_name}</code></pre>
-    <p>To submit:</p>
-    <pre><code>submit50 exam24/problems/gvpce/java/{test_name}</code></pre>
-</details>
+        <p><strong>To check correctness:</strong></p>
+        <pre><code>check50 exam24/problems/gvpce/java/{test_name}</code></pre>
+        <p><strong>To submit:</strong></p>
+        <pre><code>submit50 exam24/problems/gvpce/java/{test_name}</code></pre>
+    </details>
+
+    <script>
+        // Optional: Add any JavaScript here to enhance functionality if needed
+    </script>
+
+</body>
+</html>
