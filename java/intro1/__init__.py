@@ -21,7 +21,7 @@ def exists():
 
 @check50.check(exists)
 def compiles():
-    """demo.java compiles"""
+    """Intro.java compiles"""
     check50.run("javac Intro1.java").exit(0)
 
 
@@ -98,5 +98,5 @@ def demo_14():
 # Helpers
 def test_input_output(input_file, output_file):
     """A function to test a single input/output pair"""
-    executable = "java Into1"
+    executable = "java Intro1"
     check50.run(executable).stdin(open(input_file).read(), prompt=False).stdout(open(output_file).read(), regex=False).exit()
