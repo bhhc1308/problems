@@ -2,7 +2,7 @@ import check50
 
 @check50.check()
 def exists():
-    """intro2.java exists"""
+    """Intro2.java exists"""
     check50.exists("intro2.java")
     check50.include("../../intro2/1.in", "../../intro2/1.out")
     check50.include("../../intro2/2.in", "../../intro2/2.out")
@@ -21,8 +21,8 @@ def exists():
 
 @check50.check(exists)
 def compiles():
-    """intro2.java compiles"""
-    check50.run("javac intro2.java").exit(0)
+    """Intro2.java compiles"""
+    check50.run("javac Intro2.java").exit(0)
 
 @check50.check(compiles)
 def demo_1():
