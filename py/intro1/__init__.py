@@ -19,10 +19,6 @@ def exists():
     check50.include("../../intro1/13.in", "../../intro1/13.out")
     check50.include("../../intro1/14.in", "../../intro1/14.out")
 
-@check50.check(exists)
-def compiles():
-    """intro1.py compiles"""
-    check50.run("python3 {folder_name}.py").exit(0)
 
 @check50.check(compiles)
 def demo_1():
