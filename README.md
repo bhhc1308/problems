@@ -3,24 +3,24 @@
 Select your programming language
 
 <details>
-    <summary> C</summary>
+    <summary>C</summary>
     
     File Name: `{test_name}.c`
     
-    To Compile and run
+    To Compile and run:
     
     ```bash
     make {test_name}
     ./{test_name}
     ```
     
-    To check correctness
+    To check correctness:
     
     ```bash
     check50 exam24/problems/gvpce/c/{test_name}
     ```
     
-    To submit
+    To submit:
     
     ```bash
     submit50 exam24/problems/gvpce/c/{test_name}
@@ -32,20 +32,20 @@ Select your programming language
     
     File Name: `{test_name}.cpp`
     
-    To Compile and run
+    To Compile and run:
     
     ```bash
     make {test_name}
     ./{test_name}
     ```
     
-    To check correctness
+    To check correctness:
     
     ```bash
     check50 exam24/problems/gvpce/cpp/{test_name}
     ```
     
-    To submit
+    To submit:
     
     ```bash
     submit50 exam24/problems/gvpce/cpp/{test_name}
@@ -57,19 +57,19 @@ Select your programming language
     
     File Name: `{test_name}.py`
     
-    To  run
+    To run:
     
     ```bash
     python3 {test_name}.py
     ```
     
-    To check correctness
+    To check correctness:
     
     ```bash
     check50 exam24/problems/gvpce/py/{test_name}
     ```
     
-    To submit
+    To submit:
     
     ```bash
     submit50 exam24/problems/gvpce/py/{test_name}
@@ -81,20 +81,20 @@ Select your programming language
     
     File Name: `{test_name}.java`
     
-    To Compile and run
+    To Compile and run:
     
     ```bash
     javac {test_name}.java
     java {test_name}
     ```
     
-    To check correctness
+    To check correctness:
     
     ```bash
     check50 exam24/problems/gvpce/java/{test_name}
     ```
     
-    To submit
+    To submit:
     
     ```bash
     submit50 exam24/problems/gvpce/java/{test_name}
