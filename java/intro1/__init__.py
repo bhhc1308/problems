@@ -3,7 +3,7 @@ import check50
 @check50.check()
 def exists():
     """Intro1.java exists"""
-    check50.exists("Intro1.java")
+    check50.exists("intro1.java")
     check50.include("../../intro1/1.in", "../../intro1/1.out")
     check50.include("../../intro1/2.in", "../../intro1/2.out")
     check50.include("../../intro1/3.in", "../../intro1/3.out")
@@ -21,76 +21,75 @@ def exists():
 
 @check50.check(exists)
 def compiles():
-    """Intro.java compiles"""
+    """Intro1.java compiles"""
     check50.run("javac Intro1.java").exit(0)
 
-
-@check50.check(compiles)
+@check50.check(exists)
 def demo_1():
     """demo_1"""
     test_input_output("1.in", "1.out")
 
-@check50.check(compiles)
+@check50.check(exists)
 def demo_2():
     """demo_2"""
     test_input_output("2.in", "2.out")
 
-@check50.check(compiles)
+@check50.check(exists)
 def demo_3():
     """demo_3"""
     test_input_output("3.in", "3.out")
 
-@check50.check(compiles)
+@check50.check(exists)
 def demo_4():
     """demo_4"""
     test_input_output("4.in", "4.out")
 
-@check50.check(compiles)
+@check50.check(exists)
 def demo_5():
     """demo_5"""
     test_input_output("5.in", "5.out")
 
-@check50.check(compiles)
+@check50.check(exists)
 def demo_6():
     """demo_6"""
     test_input_output("6.in", "6.out")
 
-@check50.check(compiles)
+@check50.check(exists)
 def demo_7():
     """demo_7"""
     test_input_output("7.in", "7.out")
 
-@check50.check(compiles)
+@check50.check(exists)
 def demo_8():
     """demo_8"""
     test_input_output("8.in", "8.out")
 
-@check50.check(compiles)
+@check50.check(exists)
 def demo_9():
     """demo_9"""
     test_input_output("9.in", "9.out")
 
-@check50.check(compiles)
+@check50.check(exists)
 def demo_10():
     """demo_10"""
     test_input_output("10.in", "10.out")
 
-@check50.check(compiles)
+@check50.check(exists)
 def demo_11():
     """demo_11"""
     test_input_output("11.in", "11.out")
 
-@check50.check(compiles)
+@check50.check(exists)
 def demo_12():
     """demo_12"""
     test_input_output("12.in", "12.out")
 
-@check50.check(compiles)
+@check50.check(exists)
 def demo_13():
     """demo_13"""
     test_input_output("13.in", "13.out")
 
-@check50.check(compiles)
+@check50.check(exists)
 def demo_14():
     """demo_14"""
     test_input_output("14.in", "14.out")
